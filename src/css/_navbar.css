@@ -1,11 +1,4 @@
-.header-github-link {
-  transition: 0.3s;
-}
-
-.header-github-link:hover {
-  opacity: 0.6;
-}
-
+/* Github Link Icon */
 .header-github-link::before {
   content: "";
   width: 24px;

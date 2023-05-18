@@ -50,11 +50,13 @@ const config = {
     ],
   ],
 
+  plugins: [],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/logo.png",
       navbar: {
         title: "Haku_TW",
         logo: {
@@ -65,15 +67,11 @@ const config = {
         items: [
           {
             type: "docSidebar",
-            sidebarId: "tutorialSidebar",
+            sidebarId: "notesSidebar",
             position: "left",
             label: "📓 Notes",
           },
           { to: "/blog", label: "📑 Blogs", position: "left" },
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
           {
             href: "https://github.com/davidchen233",
             className: "header-github-link",
@@ -84,17 +82,7 @@ const config = {
       },
       footer: {
         style: "dark",
-        links: [
-          // {
-          //   title: "Docs",
-          //   items: [
-          //     {
-          //       label: "Tutorial",
-          //       to: "/docs/intro",
-          //     },
-          //   ],
-          // },
-        ],
+        links: [],
         copyright: `Copyright © ${new Date().getFullYear()} Haku's Personal Site`,
       },
       prism: {
